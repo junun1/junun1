@@ -1,0 +1,161 @@
+  *{
+    font-family: 'Noto Sans KR', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margine:0px;
+    padding:0px;
+    color:#000;
+  }
+.intro_bg{
+  background-image:url("image/nack.jpg");
+  width:1280px;
+  height:800px;
+  margin:auto;
+
+}
+.header{
+  display:flex;
+  width:1280px;
+  margin:auto;
+  height:86px;
+}
+
+.search_area{
+  width:300px;
+  height:40px;
+  background: rgba(0,0,0,0.5);
+  border-radius: 5px;
+  margin-top: 24px;
+}
+
+.search_area > form > input{
+  border:none;
+  width:250px;
+  height:40px;
+  background:rgba(0,0,0,0);
+  color:#fff;
+  padding-left:10px;
+}
+
+.search_area > form > span{
+  width:50px;
+  color:#fff;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.nav{
+  display:flex;
+  justify-content: flex-end;
+  line-height: 86px;
+  width:calc(1280px - 300px);
+}
+
+.nav > li{
+  margin-left:84px;
+  border-radius: 5px;
+}
+
+.nav > li > a{
+  color:#fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.intro_text{
+  width:720px;
+  margin:231px auto 231px auto;
+  text-align:center;
+  border-radius: 30px;
+}
+.intro_text > h1,
+.intro_text > h4{
+  color:#fff;
+}
+
+h1{
+  font-size: 60px;
+}
+
+h4{
+  font-size: 25px;
+  font-weight: lighter;
+
+}
+
+.amount{
+  position: relative;
+  top:-40px;
+  display:flex;
+  width:1280px;
+  background:#202020;
+  margin:auto;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.amount > li{
+  flex: 1;
+  height: 132px;
+  background:#202020;
+  border-radius: 20px;
+}
+.amount > li >div {
+text-align: center;
+height: 57px;
+margin-top: 37px;
+border-right:1px solid gray;
+}
+
+
+.contents1{
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.contents2{
+  color:lightgray;
+  font-size: 15px;
+  font-weight: lighter;
+}
+
+.main{
+}
+.main > h1{
+  text-align: center;
+  color:white;
+}
+
+.main > .games{
+  text-align: center;
+  font-size: 30px;
+  margin-top: -30px;
+  color:lightgray;
+}
+
+.favorite{
+  margin:auto;
+  width:1280px;
+  height:300px;
+  display: flex;
+}
+
+.favorite > li{
+  flex:1;
+  text-align: center;
+  margin-top: 30px;
+  margin-right: 20px;
+  position: relative;
+  left: -30px;
+}
+
+.favorite > li > a{
+  color:white;
+  font-size: 20px;
+}
+
+.favorite > li > a > img{
+  width:320px;
+}
